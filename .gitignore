@@ -1,0 +1,64 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+*.pyd
+
+# Ignore environment variables and credentials
+.env
+.env.local
+.env.production
+.env.development
+secrets.json
+
+# Ignore virtual environments
+venv/
+ENV/
+.venv/
+
+# Ignore database files
+*.sqlite3
+*.db
+*.sql
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+*.swp
+
+# Ignore dependencies (if using poetry or pipenv)
+pip-log.txt
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Ignore Docker and Kubernetes artifacts
+docker-compose.override.yml
+*.pid
+*.sock
+
+# Ignore Redis dump files
+dump.rdb
+appendonly.aof
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
